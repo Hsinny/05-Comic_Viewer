@@ -1,0 +1,90 @@
+/*------------------------------------*/
+/*  Book    
+/*------------------------------------*/
+
+.book
+  display: flex
+
+.book-cover, .book-intro
+  width: 50%
+
+.book-cover-img
+  border: 4px solid $gray-900
+
+.book-intro 
+  padding: 0 24px 24px
+  
+
+.book-intro-title
+  +color($white, $gray-900)
+  padding: 8px 24px 
+  margin: 
+    left: -24px
+    right: -24px
+
+.book-intro-descripton
+  margin-top: 24px
+  dt
+    width: 25%
+    display: inline-block
+    font-weight: 900
+  dd 
+    width: 70%
+    display: inline-block
+    font-weight: 500
+
+.book-intro-dt
+  font-weight: 700
+  margin-top: 24px
+
+// .book-intro
+.book-intro-dd
+  font-size: 16px
+  margin-top: 8px
+
+
+@media (max-width: 767px)
+  .book
+    display: block
+  .book-cover, .book-intro
+    width: 100%
+
+/*------------------------------------*/
+/*  Book    
+/*------------------------------------*/
+.chapters-sectionTitle
+  +color($white, $gray-900)
+  font-size: 24px
+  display: inline-block
+  padding: 8px 24px 
+
+.chapters-group
+  border: 4px solid $gray-900
+  padding-bottom: 8px
+
+.chapters-group-title
+  font-weight: 900
+  padding: 24px
+  &:hover 
+    +color($white, $yellow)
+    .chapters-group-title-badge
+      +color($white, $black)
+  &:last-child
+    margin-bottom: 0
+
+  a 
+    color: $gray-900
+
+.chapters-group-title-badge
+  +color($black, $yellow)
+  font-size: 14px
+  padding: 2px 8px
+  margin: 0 8px
+
+
+
+/*------------------------------------*/
+/*  Ad   
+/*------------------------------------*/
+.ad-img
+  margin-bottom: 16px
