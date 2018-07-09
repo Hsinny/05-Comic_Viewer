@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Detail | 05 | Comic Viewer | The F2E 前端修煉 精神時光屋</title>
+  <meta name="keywords" content="網頁設計, 前端, 工程師, F2E, UI, UX">
+  <meta name="description" content="前網頁設計師，正走在往前端的路上，成為網站開發工程師">
+  <!-- FB -->
+  <meta property="og:image" content="images/F2E-products_gallery.jpg">
+  <meta property="og:title" content="網頁作品 | The F2E 前端修煉 精神時光屋">
+  <meta property="og:description" content="The F2E 前端修煉精神時光屋 第五題 Comic Viewer">
+  <meta property="og:url" content="https://github.com/Hsinny">
+  <link rel="icon" type="ico" href="images/favicon.ico"> 
+  <link rel="stylesheet" href="css/iconfont.css">
+  <link rel="stylesheet" href="css/style-all.css">
+</head>
+<body id="body">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Comicomic</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-8">
+            <div class="nav">
+              <h1 class="nav-title">My Hexschool</h1>
+              <form class="form-inline nav-selector">
+                <select class="form-control">
+                  <option>Chapter
+                    <span>1</span>
+                  </option>
+                  <option>Chapter
+                    <span>2</span>
+                  </option>
+                </select>
+                <select class="form-control">
+                  <option>Page 001</option>
+                  <option>Page 002</option>
+                  <option>Page 003</option>
+                  <option>Page 004</option>
+                  <option>Page 005</option>
+                  <option>Page 006</option>
+                </select>
+              </form>
+              <div class="nav-darkToggle">
+                <i class="iconfont icon-creative"></i>
+                <button type="button" class="nav-darkToggle-btn" id="nav-darkToggle-btn"></button>
+                <i class="iconfont icon-creativefill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-8 mt-5">
+            <div id="carousel-custom" class="carousel slide carousel-custom" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-custom" data-slide-to="0" class="active">
+                  <img class="d-block w-100" src="images/comic_cover.png" alt="">
+                </li>
+                <li data-target="#carousel-custom" data-slide-to="1">
+                  <img class="d-block w-100" src="images/storyboard-1.png" alt="">
+                </li>
+                <li data-target="#carousel-custom" data-slide-to="2">
+                  <img class="d-block w-100" src="images/storyboard-2.png" alt="">
+                </li>
+                <li data-target="#carousel-custom" data-slide-to="3">
+                  <img class="d-block w-100" src="images/storyboard-3.png" alt="">
+                </li>
+                <li data-target="#carousel-custom" data-slide-to="4">
+                  <img class="d-block w-100" src="images/storyboard-4.png" alt="">
+                </li>
+                <li data-target="#carousel-custom" data-slide-to="5">
+                  <img class="d-block w-100" src="images/storyboard-5.png" alt="">
+                </li>
+                <li data-target="#carousel-custom" data-slide-to="6">
+                  <img class="d-block w-100" src="images/storyboard-6.png" alt="">
+                </li>
+                <!-- <li data-target="#carousel-custom" data-slide-to="7">
+                      <img class="d-block w-100" src="images/storyboard-7.png" alt="">
+                    </li>
+                    <li data-target="#carousel-custom" data-slide-to="8">
+                      <img class="d-block w-100" src="images/storyboard-8.png" alt="">
+                    </li>
+                    <li data-target="#carousel-custom" data-slide-to="9">
+                      <img class="d-block w-100" src="images/storyboard-9.png" alt="">
+                    </li>
+                    <li data-target="#carousel-custom" data-slide-to="10">
+                      <img class="d-block w-100" src="images/storyboard-10.png" alt="">
+                    </li>
+                    <li data-target="#carousel-custom" data-slide-to="11">
+                      <img class="d-block w-100" src="images/storyboard-11.png" alt="">
+                    </li>
+                    <li data-target="#carousel-custom" data-slide-to="12">
+                      <img class="d-block w-100" src="images/storyboard-12.png" alt="">
+                    </li> -->
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/comic_cover.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/storyboard-1.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/storyboard-2.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/storyboard-3.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/storyboard-4.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/storyboard-5.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/storyboard-6.png" alt="">
+                </div>
+                <!-- <div class="carousel-item">
+                      <img class="d-block w-100" src="images/storyboard-7.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/storyboard-8.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/storyboard-9.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/storyboard-10.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/storyboard-11.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="images/storyboard-12.png" alt="">
+                    </div> -->
+              </div>
+              <a class="carousel-control-prev" href="#carousel-custom" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-custom" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/comic_viewer.js"></script>
+</body>
+</html>
